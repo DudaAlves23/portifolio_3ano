@@ -1,0 +1,47 @@
+//string
+const nome = "Augusto"
+const turma = '3B'
+console.log(nome, ": ", turma)
+
+
+//number
+const idade = 17
+const altura = 1.74
+pronomes = ele/daSophia
+console.log(idade + ", " + altura)
+
+
+//boolean
+const maiorIdade = false
+const homem = true
+
+
+console.log(`Augusto é menor de idade? ${menorIdade}, é homem? ${homem}`);
+
+
+//objeto
+const pessoa ={
+    nome: "Augusto
+    idade: 30
+    pronomes: "Ele/daShophia"
+}
+console.log("esse é " +pessoa.nome+ "ele tem"+ pessoa.idade+ "anos e seus pronomes são" +pessoa.pronomes)
+
+
+//array
+const listaAlunos = ["Augusto", "Henrique", "Marcus", "Marcelo", "Renan"]
+const numeros =[17,18,17,20,44]
+const objetos = [0
+    {
+        nome: "Polinho GTS"
+        ano: "2019"
+        cor: "azul putifero"
+    }
+]
+
+
+console.log(listaAlunos)
+console.log(numeros[0])
+
+
+console.log(objetos[1].ano)
