@@ -1,0 +1,76 @@
+1. Exercício: O teste de unidade, cujo foco são as menores unidades do programa, como as funções, os procedimentos, os métodos ou as classes, somente pode ser realizado após a implantação de todas as unidades do programa.
+
+Certo.
+Errado.
+
+2. Exercício: O teste de integração objetiva tanto a verificação da correta implantação dos requisitos funcionais quanto a dos requisitos não funcionais, como desempenho e vulnerabilidade.
+
+Certo.
+Errado.
+
+3. Exercício: O objetivo é executar o sistema sob o ponto de vista de seu usuário final, varrendo as funcionalidades em busca de falhas em relação aos objetivos originais. Os testes são executados em condições similares àquelas que um usuário utilizará no seu dia-a- dia de manipulação do sistema.
+
+Unidade.
+Integração.
+Sistema.
+Aceitação.
+
+4. Exercício:
+
+Indique se é verdadeiro ou falso:
+(V) Os testes devem ser executados para mostrar a ausência de defeitos.
+(F) A equipe de testes é formada pelos programadores menos qualificados.
+(V) Bugs custam mais para serem corrigidos quando o sistema está em operação/produção.
+(F) O sistema está pronto quando o desenvolvedor termina de codificar.
+
+5. Exercício:
+A MELHOR definição para teste de aceitação é:
+
+Garantir que o software entre sem erros na produção.
+Garantir que o grupo de testes fez um bom trabalho.
+Executar um teste funcional.
+Garantir que o software esteja fazendo exatamente aquilo que foi solicitado nos requisitos de negócio.
+6. Exercício:
+A quem cabe a responsabilidade pela execução do teste unitário?
+
+Testador.
+Programador.
+Cliente.
+Analista de Requisitos.
+7. Exercício:
+Como é feito o teste de sistema?
+
+Através de classes e métodos do sistema
+Através da integração dos componentes de negócio
+Através da interface gráfica do usuário
+Através do banco de dados
+
+8 . O teste de software que garante o atendimento aos requisitos, ou seja, que verifica se os requisitos estão corretamente codificados, são conhecidos como?
+R: teste de conformidade.
+
+9. Com relação aos tipos de testes que podem ser considerados e executados em um projeto de software, é correto afirmar que o objetivo principal do Teste Funcional é assegurar que?
+R: Os testes funcionais permitem que os testes ocorram de uma forma mais eficiente e rápida, possibilitando encontrar as não conformidades do software em relação aos requisitos do sistema.
+
+10. Uma das técnicas empregadas no projeto de interfaces de sistemas é a condução de testes de usabilidade, cujos resultados fornecem importantes indicadores para melhorar a qualidade da interface. Os testes de usabilidade consistem em?
+R: distribuir um questionário para os usuários iniciais do sistema com perguntas sobre a interface e mapear as respostas.
+
+11. A execução de um sistema com o objetivo de encontrar falhas sob condições que demandam recursos em quantidade, frequência ou volumes anormais é definida como?
+R: teste de estresse
+
+12. Que tipo de teste, mais especificamente, pode ser realizado para avaliar o desempenho de um sistema, dadas condições operacionais limites, tais como número de usuários e transações?
+R: teste de carga
+
+13. Um dos tipos de teste de software é o teste de desempenho. fale sobre:
+R: O teste de desempenho, no contexto da engenharia de software, é similar ao teste de carga, mas com o intuito de testar o software a fim de encontrar o seu limite de processamento de dados no seu melhor desempenho. No teste normalmente é avaliada a capacidade de resposta em determinados cenários e configurações.
+
+14. O presidente de uma empresa solicita um novo sistema de informação e pede atenção para que o sistema possua uma interface intuitiva e muito fácil de utilizar. Durante o desenvolvimento desse sistema, o tipo de teste que deve ser realizado com redobrada atenção é o de?
+R: teste de usabilidade
+
+15. No que se refere aos requisitos desejáveis para um software que é uma "biblioteca digital", aquele que possui a habilidade de um pacote de software que pode ser executado em diferentes ambientes operacionais é o da?
+R: Flexibilidade
+
+16. O teste que valida a proteção do sistema e das informações que trafegam nele é chamado de?
+R: Teste de segurança
+
+17. O gestor de um órgão organizador de concursos públicos pretende oferecer condições para que mais de um milhão de candidatos inscritos em determinado evento possa obter o gabarito das provas a partir do acesso ao seu sistema eletrônico.Nessa situação, para verificar se o sistema eletrônico suportará uma quantidade grande de acessos simultâneos, a equipe de TI do órgão, ao preparar o ambiente de acesso eletrônico, deverá realizar qual teste? 
+R: Teste de sistemas
