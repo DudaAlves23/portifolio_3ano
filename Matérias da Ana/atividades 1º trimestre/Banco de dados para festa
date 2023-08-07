@@ -1,0 +1,32 @@
+CREATE TABLE Convite (
+  preco DECIMAL(4,2) NOT NULL,
+  lugar VARCHAR(20) not NULL,
+  dia date not NULL,
+  tipoBar VARCHAR(20),
+  PRIMARY KEY (dia)
+);
+  
+CREATE TABLE Festa (
+  lugar VARCHAR(20) not NULL,
+  entradaFesta VARCHAR(20) not NULL,
+  tipoBar VARCHAR(20),
+  ocupacao int not NULL,
+  dia DATE not NULL,
+  PRIMARY key (entradaFesta),
+  FOREIGN KEY (dia) REFERENCES Convite (dia));
+  
+CREATE TABLE Convidado (
+  nome VARCHAR(20) not NULL,
+  idade int not NULL,
+  CPF VARCHAR(11) not NULL,
+  presenteAni VARCHAR(30),
+  PRIMARY key (cpf));
+  
+CREATE TABLE Aniversariante (
+  nome VARCHAR(20) not NULL,
+  idade int not NULL,
+  CPF VARCHAR(11) not NULL,
+  nascimento date not NULL,
+  presenteAni VARCHAR(30),
+  PRIMARY key (cpf)
+  FOREIGN key (presenteAni) REFERENCES Convidado (presenteAni));
