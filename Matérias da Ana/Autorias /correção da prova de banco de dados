@@ -1,0 +1,74 @@
+Respostas da prova!!
+
+1- Em um sistema de gerenciamento escolar, os professores enfrentam um desafio comum ao elaborar questões para avaliar o conhecimento de seus alunos. Muitas vezes, as questões são mal formuladas, confusas ou ambíguas, resultando em respostas incorretas e dificuldades para avaliar adequadamente o desempenho do aluno. Para solucionar esse problema, os alunos do terceiro ano do curso técnico integrado em Desenvolvimento de Sistemas sugeriram implementar um sistema conectado a um banco de dados que armazena informações sobre questões e respostas. 
+
+Qual é a principal função de um banco de dados nesse sistema de gerenciamento escolar?
+
+R: Armazenar informações sobre questões e respostas
+
+Explicação: para saber as questões que os alunos erram recorrente e ter o banco de dados completo com respostas.
+
+2- Em um sistema de controle de estoque para uma loja de roupas, a importação de dados pode ser necessária por diversos motivos. Um deles é a atualização do sistema com informações de novos produtos e suas características.
+
+Imagine que a loja decidiu incluir uma nova linha de produtos, como sapatos, em seu estoque. Para registrar esses novos itens no sistema, é preciso incluir informações como o nome do produto, a descrição, o tamanho, a cor, o preço e a quantidade em estoque. Se essas informações já estiverem disponíveis em um formato eletrônico, é possível importá-las diretamente para o sistema de controle de estoque, economizando tempo e minimizando erros de digitação.
+
+Com base nesse contexto, qual é o principal motivo para a importação de dados em um sistema de controle de estoque para uma loja de roupas?
+
+R: A atualização do sistema com informações de novos produtos e suas características.
+
+Explicação: a atualização é essencial para um sistema de estoque pois é constantemente organizado e feito a entrada de estoque.
+
+3- Em um sistema de gerenciamento de vendas, é necessário armazenar informações sobre os produtos vendidos, incluindo o nome do produto, o preço unitário e a quantidade vendida. Qual seria a declaração correta da tabela de produtos?
+ 
+R: imagem.png
+
+Explicação: : É a melhor configuração possível para um sistema de estoque pois há como alterar futuramente.
+
+
+
+4- Em um sistema para auxiliar professores a criar questões para suas avaliações, a exportação e análise de dados podem ser ferramentas poderosas para melhorar a qualidade das questões e, consequentemente, a avaliação dos alunos. Imagine que esse sistema tenha um banco de dados com informações sobre o desempenho dos alunos em provas anteriores, bem como seus resultados em atividades e exercícios durante o curso.
+
+
+Com base nesses dados, o sistema pode ajudar o professor a criar questões mais eficazes. Além disso, a análise dos dados pode ajudar o professor a adaptar as avaliações de acordo com as dificuldades dos alunos.
+
+
+Com relação à exportação e análise de dados, qual das seguintes opções é uma vantagem desse processo para o sistema em questão?
+
+
+R: Reduzir o tempo gasto pelos professores na criação de questões e na análise de resultados
+
+Explicação: assim os professores constroem um sistema ao qual pega colas e corrige muito mais rápido, focando no aluno e em buscar formas de aprendizado mais eficazes.
+
+5- Imagine que você está trabalhando em uma equipe de design de interface de usuário para um novo software de gerenciamento de tarefas. O banco de dados do software usa PostgreSQL e contém informações sobre as tarefas, seus prazos, responsáveis, prioridades e outras informações relacionadas. Para tornar a interface do usuário mais agradável e inovadora, você propôs a adição de um novo campo na tabela de tarefas que irá armazenar a porcentagem de tarefas já executadas.
+
+Qual tipo de dado você recomendaria para o novo campo?
+
+R: DATE
+
+Explicação: pois ele é bom para converter dados e armazenar informações.
+
+
+6- Uma empresa farmacêutica está desenvolvendo um sistema para ajudar as pessoas a lembrarem de tomar seus medicamentos. O sistema permite que os usuários insiram informações sobre seus medicamentos, como nome, dose, horário de administração e período de tratamento. Além disso, o sistema permite que os usuários registrem a adesão ao tratamento, ou seja, se eles tomaram ou não o medicamento no horário programado.
+
+Para garantir que as informações sejam armazenadas corretamente, a equipe de desenvolvimento decidiu adicionar uma chave primária à tabela de medicamentos. A chave primária deve ser composta por um atributo do tipo serial para garantir a unicidade dos registros, um atributo do tipo date para armazenar a data de início do tratamento e um atributo do tipo decimal para armazenar a dose do medicamento.
+Qual seria o comando SQL correto para fazer essas alterações na tabela?
+
+
+
+R/ explicação: assim você consegue tá sempre colocando novos remédios e inserindo um date consegue definir o dia de comprar o medicamento novamente, mais remédios e até a receita anexada.
+
+7- Imagine que você está trabalhando em um sistema para auxiliar escritores a ter ideias para seus livros. Nesse sistema, os escritores podem inserir informações sobre seus personagens, enredo, configurações e outras informações relevantes. Como parte do desenvolvimento desse sistema, você precisa implementar uma funcionalidade que permita aos usuários exportar os dados de seus projetos em um formato que possa ser analisado posteriormente.
+
+Considerando o contexto descrito acima, qual das seguintes opções descreve melhor o motivo para exportar e analisar dados em um sistema para auxiliar escritores a ter ideias para seus livros?
+ 
+R: Para permitir aos usuários editar seus projetos em um software externo
+
+Explicação: para melhor uso de plataformas externas e alternância entre dados, um bom exemplo disso é as plataformas do governo como a “celk” que é o banco de dados das upas catarinenses que manda para o sistema de saúde do Brasil.
+
+8- Em um sistema de gerenciamento de escolas, é necessário armazenar informações sobre turmas, disciplinas e alunos. Cada turma pode ter várias disciplinas, e cada disciplina pode ser oferecida em várias turmas. Além disso, cada turma pode ter vários alunos, e cada aluno pode estar matriculado em várias turmas.
+
+Com base nesse cenário e tendo em vista a legenda anexada em imagem, qual a cardinalidade correta entre as entidades turma, disciplina e aluno?
+
+R- Turma possui relacionamento muitos para muitos com disciplina e muitos para muitos com aluno.
+
+Explicação: todas as matérias precisam dos alunos
