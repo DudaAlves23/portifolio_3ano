@@ -1,0 +1,41 @@
+essa é uma parte da atividade da "solução da fila na cantina"
+  
+CREATE TABLE Cantina (
+  Lugar VARCHAR(100) NOT NULL,
+  CNPJ_pk INT NOT NULL,
+  iid_fk INT not NULL,
+  CPF_fk INT NOT NULL,
+  Contrato_fk INT NOT NULL,
+  Primary key (CNPJ_pk),
+  FOREIGN KEY(CPF_fk) REFERENCES Cliente (CPF_pk),
+  FOREIGN key (iid_fk) REFERENCES Registro (iid),
+  FOREIGN key (Contrato_fk) REFERENCES Funcionario (Contrato_pk)
+  );
+  
+ CREATE TABLE Cliente (
+   Nome VARCHAR(45) NOT NULL,
+   CPF_pk INT not NULL,
+   Idade INT Not NULL,
+   PRIMARY KEY (CPF_pk)
+   );
+  
+ CREATE TABLE Comida (
+   Tipo_pk VARCHAR(20) not NULL,
+   Valor float not NULL,
+   Nome VARCHAR(45) not NULL,
+   PRIMARY key (Tipo_pk)
+   );
+  
+ CREATE table Funcionario (
+   Nome VARCHAR(45) not NULL,
+   Contrato_pk INT Not NULL,
+   Idade INT not NULL,
+   PRIMARY KEY (Contrato_pk)
+   );
+   
+  CREATE TABLE Registro (
+    iid INT NOT NULL,
+    TotalCompra VARCHAR(20) not NULL,
+    PRIMARY KEY (iid)
+    );
+    
