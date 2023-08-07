@@ -1,0 +1,35 @@
+Tabela de SQL para loja de roupas, possui um BR modelo tambem 
+
+
+
+
+CREATE TABLE roupa(
+  tecido VARCHAR(20) NOT NULL,
+  codBarra VARCHAR(10) not null,
+  corte VARCHAR(20) not NULL,
+  estilista VARCHAR(30) not null,
+  marca VARCHAR(30) not null,
+  primary KEY (codBarra)
+  );
+CREATE TABLE lojaRoupa(
+  codBarra_roupa VARCHAR(10) not NULL,
+  CNPJ_loja VARCHAR(14) not NULL,
+  nome VARCHAR(30) not NULL,
+  PRIMARY KEY (CNPJ_loja),
+  FOREIGN KEY (codbarra_roupa) REFERENCES roupa (codbarra)
+  );
+CREATE TABLE marca(
+  CNPJ_Marca VARCHAR(14) NOT NULL,
+  estilistas INT not null,
+  peças int not null,
+  Dono Varchar(20) not null,
+  primary key (CNPJ_Marca)
+  );
+  
+  CREATE TABLE Publicidade(
+  modelos varchar(30) Not NULL,
+  coleções varchar(20) not NULL, 
+  redes_sociais varchar(20) NOT NULL,
+  embaixadores varchar(20) not NULL,
+  temporada int not null,
+  PRIMARY KEY (temporada)
