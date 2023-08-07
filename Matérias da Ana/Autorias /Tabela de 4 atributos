@@ -1,0 +1,53 @@
+CREATE TABLE cliente (
+  nome varchar (50) NOt NULL,
+  cpf_cliente (50) not NULL,
+  produto_id serial NOT NULL,
+  idade INT,
+  pedido_id INT,
+  PRIMARY KEY (cpf)
+);
+  
+  CREATE TABLE site(
+    cnpj VARCHAR(20) NOT NULL,
+    nome VARCHAR(20) NOT NULL,
+    cep VARCHAR(20) NOT NULL,
+    numero INT,
+    cpf_cliente VARCHAR(15),
+    PRIMARY KEY (cnpj),
+    FOREIGN KEY (cpf_cliente) REFERENCES cliente(cpf)
+    );
+    
+    CREATE TABLE entrega(
+      cep int not NULL,
+      numero_casa int NOT NULL,
+      empresa_entrega VARCHAR(20) not NULL,
+      codigo_rastreio INT not NULL,
+      id_cliente INTNOT NULL,
+      PRIMARY KEY (id_cliente)
+    );
+     INSERT INTO entrega (cep, id_nome, numero_casa, empresa_entrega, codigo_rastreio)
+     VALUES ('35656666','67895667', 'sedex', '9999993738'),
+     ('35896666','67890367', 'glf', '9999783738'),
+     ('86548790','67870972', 'loggi', '0978709876'),
+     ('337638376', '78738038', 'Braspress', '0986324553'),
+     ('337087356', '78739878', 'DHL', '0764324553')
+     
+  insert into cliente (nome, cpf, idade, pedido_id)
+  VALUES ('duda', '12042627282', '17', '898989'),
+  ('ana', '23423434534', '32', '131313')
+  ('henrique', '12265698920', '345658')
+  ('francisco', '12276545604', '983745')
+  ('guilherme', '12578663920', '349088')
+  
+  INSERT INTO site (cnpj, nome, cep, numero, cpf_cliente)
+  VALUES ('636363636' , 'francisco', '884955859', '38', '23423434534'),
+    ('2946585858', 'ORIZONTI', '2048433', '18', '12042627282'),
+    ('2946987858', 'pelintra', '2009433', '48', '12048977282'),
+    ('2946582348', 'padilha', '2003433', '58', '04842627282'),
+    ('2940182348', 'luiza', '2003083', '99', '04842627223')
+  
+  SELECT cnpj, nome FROM site WHERE numero > 20 OR numero < 20 order by cpf_cliente ASC
+  SELECT FROM cliente inner JOIN site ON cliente_cpf = site.cpf_cliente
+  
+  
+
